@@ -50,7 +50,7 @@
     
     <script>
     export default{
-        name: 'FooterPageShop'
+        name: 'FooterPage'
     }
     </script>
     
