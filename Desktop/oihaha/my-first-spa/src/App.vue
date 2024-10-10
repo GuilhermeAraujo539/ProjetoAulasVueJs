@@ -7,6 +7,7 @@
       <router-link to="/Nav">NavBar</router-link>
       <router-link to="/Object">Object</router-link>
       <router-link to="/Footer">Footer</router-link>
+      <router-link to="/Home">Home</router-link>
     </nav>
   </div>
   

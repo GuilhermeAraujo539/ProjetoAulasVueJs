@@ -5,6 +5,7 @@ import NavPage from "./components/NavPage.vue";
 import ObjectComponent from "./components/ObjectComponent.vue";
 import ContentPage from "./components/ContentPage.vue";
 import FooterPage from "./components/FooterPage.vue";
+import HomeComponent from './components/HomeComponent.vue';
 
 const routes = [
     {
@@ -36,6 +37,11 @@ const routes = [
         path: '/Object',
         name: 'Object',
         component: ObjectComponent
+    },
+    {
+        path: '/home',
+        name: 'Home',
+        component: HomeComponent
     }
 ];
 
