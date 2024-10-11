@@ -48,8 +48,8 @@ export default {
 }
 
 .logo {
-  max-width: 150px; /* Tamanho máximo da largura */
-  height: auto;     /* Mantém a proporção da imagem */
+  max-width: 150px;
+  height: auto; 
   margin-bottom: 20px;
 }
 
