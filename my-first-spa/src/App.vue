@@ -1,6 +1,7 @@
 <template>
 
     <NavPage></NavPage>
+    
   
   <router-view></router-view>
 </template>

@@ -43,15 +43,20 @@
             </button>
         </div>
 
+
     </div>
 
-
+    <FooterComponent />
 </template>
 
 
 <script>
+import FooterComponent from '../components/FooterComponent.vue'
 export default {
     name: 'LoginPage',
+    components: {
+        FooterComponent
+    },
 }
 
 </script>
