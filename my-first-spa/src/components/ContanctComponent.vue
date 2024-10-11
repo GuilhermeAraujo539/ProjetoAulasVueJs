@@ -51,15 +51,10 @@ export default {
   },
   methods: {
     handleSubmit() {
-      console.log('E-mail:', this.email);
-      console.log('Assunto:', this.assunto);
-      console.log('Mensagem:', this.mensagem);
-
       this.showModal = true;
-
-      // this.email = '';
-      // this.assunto = '';
-      // this.mensagem = '';
+      this.email = '';
+      this.assunto = '';
+      this.mensagem = '';
     },
     closeModal() {
       this.showModal = false;
