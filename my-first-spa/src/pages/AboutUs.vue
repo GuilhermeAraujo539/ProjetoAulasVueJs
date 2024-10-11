@@ -3,16 +3,18 @@
     <CardPerson></CardPerson>
 
 </div>
+<FooterComponent />
 </template>
 
 
 <script>
 import CardPerson from '../components/CardsPerson.vue';
+import FooterComponent from '../components/FooterComponent.vue';
 
 export default {
   name: 'AboutUs',
   components:{
-    CardPerson
+    CardPerson, FooterComponent
   }
 }
 </script>
