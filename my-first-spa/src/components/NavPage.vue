@@ -9,7 +9,7 @@
                         to="/">Home</router-link>
                     <router-link
                         style="text-decoration: none; color: white; letter-spacing: 1px; font-weight: 500; font-family:Poppins, sans-serif; text-transform: uppercase;"
-                        to="/about">About Us</router-link>
+                        to="/aboutUS">About Us</router-link>
                     <router-link
                         style="text-decoration: none; color: white; letter-spacing: 1px; font-weight: 500;font-family:Poppins, sans-serif; text-transform: uppercase;"
                         to="/contact">Contact</router-link>

@@ -62,7 +62,6 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-/* From Uiverse.io by Na3ar-17 */
 .container {
     box-sizing: border-box;
     display: flex;
@@ -73,9 +72,9 @@ export default {
 
 .label {
     position: relative;
+    width: 450px;
     display: block;
-    width: 250px;
-    margin-top: 40px;
+    margin-top: 80px;
     display: flex;
     border-radius: 6px;
     border: 2px solid white;
@@ -99,10 +98,8 @@ export default {
         font-size: 16px;
     }
 }
-
-/* From Uiverse.io by alexroumi */
 button {
-    padding: 15px 25px;
+    padding: 15px 65px;
     border: unset;
     border-radius: 15px;
     color: #212121;
@@ -115,6 +112,7 @@ button {
     box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
     transition: all 250ms;
     overflow: hidden;
+    margin-top: 40px;
 }
 
 button::before {
@@ -141,6 +139,6 @@ button:hover::before {
 }
 
 .btntop {
-    margin-top: 35px;
+    margin-top: 100px;
 }
 </style>
