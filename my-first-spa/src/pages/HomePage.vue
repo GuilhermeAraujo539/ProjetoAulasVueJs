@@ -1,18 +1,16 @@
 <template>
-<div class="containier3">
-  <HomeComponent></HomeComponent>
-</div>
-
+  <HomeComp></HomeComp>
+  <img class="bolinhas" src="../assets/Bolinhas.png" alt="">
+  <h1>Explore o seu</h1>
 </template>
 
 
 <script>
-import HomeComponent from '../components/HomeComponent.vue';
-
+import HomeComp from '../components/HomeComp.vue'
 export default {
   name: 'HomePage',
   components:{
-    HomeComponent
+    HomeComp
   }
 }
 
@@ -21,5 +19,8 @@ export default {
 
 
 <style>
-
+  .bolinhas{
+    width: 100%;
+    height:100%;
+  }
 </style>
