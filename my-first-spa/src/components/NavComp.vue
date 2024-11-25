@@ -1,9 +1,7 @@
 <template>
     <ul>
-        <img class="Logo" src="../assets/Logo.png" alt="Logo">
-        <li>
-            <input type="text" placeholder="Pesquisar                      🔍︎">
-        </li>
+        <img class="Logo" src="../assets/logo.png" alt="Logo">
+        <div></div>
             <li>
                 <router-link
                 style="text-decoration: none; color: #880204; letter-spacing: 1px; font-weight: 500;   font-family:Poppins, sans-serif; text-transform: uppercase;"
@@ -49,18 +47,9 @@
     margin:0px;
 }
 .Logo{
-    width: 270px;
+    width: 250px;
     height: 130px;
     margin-top: 10px;
-
-}
-
-input{
-    border-radius: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    align-items: center;
-    order: none;
-    padding: 5px 80px;
 }
 
 ul{
